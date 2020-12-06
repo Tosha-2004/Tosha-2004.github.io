@@ -1,36 +1,119 @@
-.first{
+.first {
 	background-image: url(../img/img1.jpg);
 	height: 100%;
 	background-position: center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
-.TOURISM{
+
+.TOURISM {
 	color: white;
 	text-align: center;
 	padding-top: 80px;
 	font-size: 20px;
 }
-html,body,main{
+
+html,body,main {
 	height: 100%;
+	font-family: roboto;
 }
-.text-container{
+
+.text-container {
 	width: 40%;
 	margin-left: 15%;
 	margin-top: 15%;
 	color: white;
 }
-.first-line{
+
+.first-line {
 	text-transform: uppercase;
 	opacity: 0.5;
 	font-size: 26px;
 	font-weight: bold;
 }
-.second-line{
+
+.second-line {
 	text-transform: uppercase;
 	font-size: 60px;
 	font-weight: bold;
 }
-*{margin: 0;padding: 0;box-sizing: border-box;}
-.second{height: 100%;display: flex;justify-content: center;align-items: center;}
-.gallery-container{width: 60%;max-width: 1000px;}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.second {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gallery-container {
+	width: 60%;
+	max-width: 1000px;
+}
+.image-container {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+img {
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3); 
+	height: auto; max-width: 100%; 
+	display: block;
+}
+.img1 {
+	width: 55%;
+}
+.img2 {
+	margin-bottom: 20px;
+}
+.image-group {
+	margin-left: 20px;
+}
+.text-gallery {
+	display: flex;
+	align-items: center;
+	-ms-align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.header-text {
+	font-size: 48px;
+	letter-spacing: 2px;
+	margin-right: 50px;
+	}
+@font-face {
+	font-family: roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+.text-p {
+	font-size: 18px;
+}
+.last-container { 
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-ms-align-items: center;
+	background-image: url(../img/img3.jpg);
+	background-position: center;
+	background-size: cover;
+	flex-direction: column;
+	padding: 0 25%;
+}
+.last-header {
+	color: white; 
+	font-size: 20px; 
+	text-align: center; 
+	border: 1px solid white;
+	margin-bottom: 40px; 
+	padding: 10px 20px;
+}
+.last-text {
+	color: white; 
+	font-size: 16px; 
+	text-align: center; 
+	letter-spacing: 1px;
+}
